@@ -22,7 +22,7 @@ class SomethingController extends AbstractController
 
         if ($form->isSubmitted()) {
             if ($form->isValid()) {
-                dump($form->getData());
+                dump($something);
                 die;
             }
 
